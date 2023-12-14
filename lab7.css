@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    font-size: 18px;
+    background: rgb(45, 45, 96);
+}
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+button {
+    background-color: rgb(244, 198, 198);
+    border: 2px solid rgb(244, 198, 198);
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+button:hover {
+    background: rgb(75, 27, 249);
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.slider {
+    width: 960px;
+    height: 2160px;
+    border: 6px solid rgb(75, 27, 249);
+    border-radius: 8px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.slider-line {
+    width: 2940px;
+    height: 2160px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
